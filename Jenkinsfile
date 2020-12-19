@@ -2,7 +2,7 @@ pipeline{
   agent any
   
   environment{
-    M2_HOME = "/var/lib/jenkins/apache-maven-3.6.3"
+    M2_HOME = "/home/ec2-user/apache-maven-3.6.3"
   }
   stages{
     stage("checkout"){
